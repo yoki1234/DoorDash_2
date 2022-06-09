@@ -1,0 +1,633 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "DD-TTNorms";
+    src: url("./TTNorms-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "DD-TTNorms";
+    src: url("./TTNorms-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "DD-TTNorms";
+    src: url("./TTNorms-Bold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "DD-TTNorms";
+    src: url("./TTNorms-ExtraBold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+.header{
+    width: 100%;
+    height: 26pc;
+    display: block;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg");
+}
+.signing{
+    width: 100%;
+}
+.in_up{
+    padding: 14px 15px 0 0;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+}
+.signing div{
+    font-family: "DD-TTNorms";
+    font-weight: 600;
+}
+.sign_in{
+    font-size: 18px;
+    color: aliceblue;
+}
+.sign_up{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding:5px 10px 5px 10px;
+}
+.sign_up div{
+    font-size: 17px;
+    color:rgb(73, 73, 73);
+}
+.banner{
+    gap:43px;
+    padding: 40px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner_title{
+    font-weight: 600;
+    font-family: "DD-TTNorms";
+    color: aliceblue;
+    font-size: 29px;
+    text-align: center;
+}
+.search_box{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap:5px;
+ border-radius: 15px;
+ padding: 8px 8px 8px 8px;
+ background-color: rgb(255, 255, 255);
+
+
+}
+.sal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.search_box input{
+    
+    height: 20px;;
+    font-family: "DD-TTNorms";
+    font-weight: 500;
+    font-size: 12px;
+    border: none;
+}
+.icon_2{
+    display: none;
+}
+.saved_address_link a{
+   color: aliceblue;
+   font-family: "DD-TTNorms";
+   font-weight: 500;
+   font-size: 15px;
+
+}
+.main{
+    width: 100%;
+}
+.get_it_dashers{
+    gap:26px;
+    padding: 10px;
+    width: 298px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.doordash_exp{
+    width: 129px;
+    font-family: "DD-TTNorms";
+    font-weight: 600;
+    
+}
+.get_the_app{
+    background-color: red;
+    border-radius: 30px;
+}
+.get_the_app div{
+    padding: 11px;
+    color: aliceblue;
+    font-family: "DD-TTNorms";
+    font-weight: 600;
+    text-align: center;
+}
+.dash_main_feature{
+    padding: 23px 0 132px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+
+}
+.feature{
+    padding: 20px;
+    gap:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.feature_icon img{
+    width: 88px;
+    height: 88px;
+}
+.feature_dp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:15px;
+}
+.main_feature{
+    display:flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.feature_title{
+ font-family: "DD-TTNorms";
+ font-weight: 600;
+ font-size: 35px;
+
+}
+.feature_info{
+    font-size: 19px;
+    width: 220px;
+    font-family: "DD-TTNorms";
+    font-weight: 500;
+}
+.feature_tag{
+    color: red;
+    font-family: "DD-TTNorms";
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    gap:3px;
+    font-size: 12px;
+}
+.pink_bg_more_info{
+    padding-bottom: 50px;
+    padding-top: 100px;
+    background-color: rgb(255, 240, 237);
+    position: relative;
+}
+.more_info_img_1 img,.more_info_img_2 img{
+    width: 248px;
+    height: 191px;
+}
+.more_info_img_1 img{
+    top:-105px;
+    right: 0;
+    position:absolute;
+}
+.more_info_title{
+    width: 227px;
+    font-size: 23px;
+    font-family: "DD-TTNorms";
+    font-weight: 600;
+}
+.more{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 20px;
+}
+.more_info_description{
+    width: 228px;
+    font-family: "DD-TTNorms";
+    font-weight: 500;
+    font-size: 15px;
+}
+.more_info_button{
+    background: red;
+    width: 130px;
+    border-radius: 20px;
+}
+.more_info_button div{
+
+    padding: 6px 0px 6px 0px;
+   text-align: center;
+  font-family: "DD-TTNorms";
+  font-weight: 500;
+  color: aliceblue;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(25,25,25);
+}
+.All_Abouts{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.location,.about{
+    text-align: center;
+    padding: 10px 20px;
+ }
+ .big_letters{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #ffffff;
+}
+.smaller_letters p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    opacity: 0.7;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.smaller_letters{
+    text-decoration: none; 
+}
+.smaller_letters p:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+.store_buttons svg{
+    height : 48px; 
+    width: 144px; 
+    fill: #ffffff;
+    opacity: 0.7; 
+}
+.store_abouts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.store_buttons{
+    padding:2px 8px;
+    border-radius: 8px;
+    background-color: rgb(73,73,73);
+    display: block;
+}
+.stores {
+    padding: 30px 0;
+}
+.button_app_store{
+    padding-bottom: 10px;
+}
+.play_store :hover,.google_play :hover{
+  opacity: 1;
+}
+.bottom_page{
+    padding:25px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social_media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:15px;
+}
+.logos{
+    size: 0px;
+    opacity: 0.5;
+}
+.logos:hover{
+    opacity: 0.9;
+}
+.small_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 0;
+}
+.bottom_terms{
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0 10px;
+    color: #ffffff;
+}
+.small_bottom span{
+    opacity: 0.8;
+}
+.dinning_exp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(255,240,237);
+    padding-bottom:100px ;
+    position: relative;
+}
+a,p,span{
+    font-family: "DD-TTNorms";
+    font-weight: 500;
+    color: aliceblue;
+}
+.doordash{
+    display: none;
+}
+
+
+
+@media screen and (min-width:768px) {
+    
+
+    .banner_title{
+      width: 305px;
+    }
+    .icon_1{
+        display: none;
+    }
+    .icon_2{
+        display: block;
+    }
+    .search_box{
+        width: 358px;
+        border-radius: 40px;
+    }
+    .search_box input{
+        width: 297px;
+    }
+    .get_it_dashers{
+        gap:20px
+    }
+    .doordash_exp{
+        width: 167px;
+    }
+    .feature_icon img{
+        width: 166px;
+        height: 135px;
+    }
+    .feature_info{
+        width: 243px;
+    }
+    .more_info_img_1 img,.more_info_img_2 img{
+        width: 455px;
+        height: 330px;
+    }
+    .more_info_img_1 img{
+        top:-260px;
+    }
+    .more_info_title{
+        font-size: 29px;
+    }
+    .more{
+        padding:40px;
+    }
+    .dash_main_feature{
+        padding:23px 0px 363px 0px;
+    }
+    .more_1{
+        position:absolute;
+        top:-300px;
+    }
+    .more_2{
+        position: absolute;
+        top: 53px;
+        right: 0;
+    }
+    .All_Abouts{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .location,.about{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cc{
+        column-gap: 212px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        height: 233px;
+    }
+    .aa{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        column-gap: 120px;
+    }
+    .bottom_page{
+        padding: 25px 0;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        column-gap: 84px;
+    }
+    .bottom_terms{
+        font-weight: 300;
+        padding: 3px 7px;
+    }
+    .logo_bottom{
+        padding: 1px 9px;
+    }
+
+    .search_bar_icon{
+        display: none;
+    }
+    .search_bar_icon2{
+        display: block;
+    }
+    .delivery_serB{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 500;
+        padding: 10px 1px 10px 10px;
+        border: none;
+        width: 321px;
+        
+    }
+    .doordash{
+        display: none;
+    }
+   
+}
+@media screen and (min-width:1024px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .icon_1{
+        display: none;
+    }
+    .icon_2{
+        display: block;
+    }
+    .banner_logo{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        gap:8px;
+    }
+    .doordash{
+        display: block;
+        font-family: "DD-TTNorms";
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .dash_main_feature{
+        padding:23px 0px 510px 0px;
+    }
+    .more_info_img_1 img,.more_info_img_2 img{
+        padding: 10px;
+        width: 619px;
+        height: 480px;
+    }
+    .more_info_img_1 img{
+        top: -436px;
+    }
+    .more_info_description{
+        width: 300px;
+    }
+    .more_1{
+        top:-423px
+    }
+    .more_2{
+        top:114px;
+    }
+    .cc{
+        column-gap: 79px;
+    }
+    .All_Abouts{
+        display: flex;
+        flex-direction: row;
+    }
+    .location:last-child{
+        padding-left: 439px;
+ 
+    }
+    .aa{
+        column-gap: 14px;
+    }
+   
+    .bottom_page{
+        column-gap: 349px;
+        padding: 0;
+    }
+    .store_abouts{
+        display: flex;
+        flex-direction: row-reverse;
+        column-gap: 291px;
+        align-items: flex-start;
+    }
+   .store_buttons{
+       width: 114px;
+       height: 38px;
+   }
+   .store_buttons svg{
+       height: 36px;
+       width: 116px;
+   }
+   .stores{
+       padding: 30px 28px;
+   }
+ 
+    
+}
+@media screen and (min-width:1440px) {
+    .banner_title{
+        font-size: 44px;
+        width: 470px;
+    }
+    .banner_logo{
+        position: absolute;
+        top: 15px;
+    }
+
+    .main_feature{
+        gap:20px;
+    }
+    .feature{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature_dp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .feature_title{
+        text-align: center;
+        width: 288px;
+    }
+    .feature_info{
+        text-align: center;
+        font-size: 22px;
+    }
+    .feature_tag{
+        font-size: 20px;
+    }
+    .main_feature{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    .more_info_title{
+        font-size: 30px;
+    }
+    .more_info_description{
+        width: 369px;
+        font-size: 20px;
+    }
+    .more_info_img_1 img,.more_info_img_2 img{
+        width: 845px;
+        height: 567px;
+    }
+    .more_info_img_1 img{
+        top: -519px;
+    }
+    .more_1{
+        padding: 50px;
+    }
+    .search_bar_arrow{
+        background-color: red;
+        padding: 3px;
+        border-radius: 40px;
+    }
+    .search_bar_arrow svg{
+        color: #ffffff;
+    }
+    .footer{
+        align-items: flex-start;
+        padding: 20px 324px;
+    }
+}
